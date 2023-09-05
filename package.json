@@ -1,0 +1,34 @@
+{
+  "name": "pos-platform",
+  "version": "1.0.0",
+  "description": "landing page for POS ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --config webpack.common.js --watch",
+    "start": "node server.js",
+    "serverwatch": "nodemon ."
+  },
+  "author": "Abdelaziz Boudabia",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/preset-env": "^7.22.10",
+    "@babel/preset-react": "^7.22.5",
+    "babel-loader": "^9.1.3",
+    "css-loader": "^6.8.1",
+    "express": "^4.18.2",
+    "file-loader": "^6.2.0",
+    "img-loader": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "style-loader": "^3.3.3",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
